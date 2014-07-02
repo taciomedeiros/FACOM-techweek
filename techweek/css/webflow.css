@@ -294,7 +294,8 @@ textarea.w-select {
   width: 41.66666666666667%;
 }
 .w-col-6 {
-  width: 32%;
+  /*border: 2px solid green;*/
+  width: 50%;
 }
 .w-col-7 {
   width: 58.333333333333336%;
