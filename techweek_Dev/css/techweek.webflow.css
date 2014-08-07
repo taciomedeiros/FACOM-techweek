@@ -81,25 +81,6 @@ ul#paginador li a#last{
   display: none;
 }
 
-a.papersLink{
-  text-decoration: none;
-  font-weight: 480;
-  color: #FFFFFF;
-}
-
-div.sendPapers{
-  text-align: center;
-}
-
-div.sendPapers div{
-  margin: auto;
-  float: none;
-  margin-top: 2%;
-}
-
-.fl_left{ float: left;}
-.fl_right{ float: right;}
-
 h1 {
   display: inline-block;
   font-family: Dosis, sans-serif;
@@ -279,7 +260,6 @@ p {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent), url('../images/header.jpg');
   */
   background-image: url('../images/backgroundTechWeek.jpg');
-  background-repeat: no-repeat;
   /*background-color: #FFFFFF;*/
   background-position: 0% 0%, 50% 50%;
   background-size: auto, cover;
@@ -911,7 +891,7 @@ p {
   height: 400px;
 }
 .picture-section {
-  height: 500px;
+  height: 400px;
   background-color: #375287;
   /*background-image: url('../images/front-in-bh-publico.jpg');*/
   background-position: 50% 50%;
@@ -1100,7 +1080,7 @@ p {
   background-repeat: no-repeat;
 }
 .organizers-grid {
-  height: 280px;
+  height: 500px;
 }
 .quotes-slider {
   height: 400px;
