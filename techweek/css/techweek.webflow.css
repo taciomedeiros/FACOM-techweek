@@ -99,6 +99,13 @@ div.sendPapers div{
 
 .fl_left{ float: left;}
 .fl_right{ float: right;}
+.clearfix{ clear: both;}
+.center{ margin: auto;}
+
+span#developer{
+  font-family: Dosis, sans-serif;
+  color: #322e2d;
+}
 
 h1 {
   display: inline-block;
@@ -282,8 +289,8 @@ p {
   background-repeat: no-repeat;
   /*background-color: #FFFFFF;*/
   background-position: 0% 0%, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-size: 100% 100%;
+  /*background-repeat: repeat, no-repeat;*/
   background-attachment: scroll, fixed;
 }
 .text-container {
@@ -696,7 +703,7 @@ p {
 }
 .organizers-section {
   padding-top: 70px;
-  padding-bottom: 70px;
+  /*padding-bottom: 70px;*/
   border-top: 1px solid #c2c0c0;
 }
 .speakers-image-blur {
@@ -832,6 +839,11 @@ p {
   text-align: center;
   margin-bottom: 20px;
 }
+/* This class will fix the bug on organizers section */
+.organizers-fix{
+  height: 180px;
+}
+
 .sponsor-logo {
   display: block;
   width: 100%;
@@ -911,7 +923,7 @@ p {
   height: 400px;
 }
 .picture-section {
-  height: 500px;
+  height: calc(100%);
   background-color: #375287;
   /*background-image: url('../images/front-in-bh-publico.jpg');*/
   background-position: 50% 50%;
@@ -1085,6 +1097,7 @@ p {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
+  background-image: url('../images/TechMob - Logomarca - Color.png');
   background-color: white;
   color: #375287;
 }
@@ -1092,16 +1105,24 @@ p {
   float: right;
 }
 .logo-signature {
-  width: 150px;
-  height: 40px;
+  width: 167px;
+  height: 60px;
   background-image: url('../images/TechMob - Logomarca.png');
   background-position: 50% 50%;
-  background-size: 150px 40px;
+  background-size: 167px 60px;
   background-repeat: no-repeat;
 }
 .organizers-grid {
-  height: 280px;
+  height: auto;
 }
+
+#last-organizer{
+  float: none;
+  margin: auto;
+  padding-top: 10px;
+  height: 170px;
+}
+
 .quotes-slider {
   height: 400px;
   background-color: transparent;
@@ -1494,7 +1515,7 @@ html.w-mod-js *[data-ix="display-none"] {
   }
   .organizers-section {
     padding-top: 40px;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
   }
   .speakers-bio {
     font-size: 13px;
