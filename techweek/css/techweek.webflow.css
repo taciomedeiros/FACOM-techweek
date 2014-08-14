@@ -102,11 +102,6 @@ div.sendPapers div{
 .clearfix{ clear: both;}
 .center{ margin: auto;}
 
-span#developer{
-  font-family: Dosis, sans-serif;
-  color: #322e2d;
-}
-
 h1 {
   display: inline-block;
   font-family: Dosis, sans-serif;
@@ -702,6 +697,7 @@ p {
   font-weight: 200;
 }
 .organizers-section {
+  height: 480px;
   padding-top: 70px;
   /*padding-bottom: 70px;*/
   border-top: 1px solid #c2c0c0;
