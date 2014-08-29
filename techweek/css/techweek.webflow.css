@@ -1086,15 +1086,15 @@ p {
   text-transform: uppercase;
 }
 .hosting-button:hover {
-  box-shadow: 2px 2px 8px 0px rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 2px 2px 8px 0px rgba(255, 255, 255, 0.75);
-  -moz-box-shadow: 2px 2px 8px 0px rgba(255, 255, 255, 0.75);
-  transition-duration: 0.8s;
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  background-image: url('../images/TechMob - Logomarca - Color.png');
-  background-color: white;
+  box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.75);
+  transition-duration: 0.6s;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  /*background-image: url('../images/TechMob - Logomarca - Color.png');
+  background-color: white;*/
   color: #375287;
 }
 .hosting-button.footer {
