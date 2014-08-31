@@ -1,3 +1,8 @@
+/**
+	*Author: Frederico Luis Figueira
+	*Email: frederico05.figueira@gmail.com
+	*Date: 31/08/1993
+*/
 
 var pag_atual = "#pag_segunda";
 

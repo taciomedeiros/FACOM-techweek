@@ -3,6 +3,9 @@ body {
   font-family: Dosis, sans-serif;
 }
 
+#hackaton{
+  border-top: 2px dashed #656565;
+}
 img.logoImg{
   padding: auto;
   padding-left: 100px;
@@ -623,7 +626,7 @@ p {
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
-  height: 100%;
+  height: 380px;
   opacity: 1;
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
