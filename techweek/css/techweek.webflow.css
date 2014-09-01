@@ -6,6 +6,11 @@ body {
 #hackaton{
   border-top: 2px dashed #656565;
 }
+.message{
+  margin-top: 2px;
+  font-size: 10px;
+  color: #FFF000;
+}
 img.logoImg{
   padding: auto;
   padding-left: 100px;
@@ -203,6 +208,9 @@ p {
   background-repeat: repeat;
   background-attachment: scroll;
   color: #375287;
+}
+.button.convertion:hover .message{
+  color: #000000;
 }
 
 /*
